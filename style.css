@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: rgb(136, 179, 195);
+}
+h1{
+    text-align: center;
+    width:100%;
+    margin:0;
+    background-color: rgb(108, 239, 239);
+}
+div{
+    box-sizing: border-box;
+}
+div.container{
+    width: 600px;
+    margin:auto;
+}
+div.post1{
+    margin:0 auto;
+    background-color: white;
+}
+div.post1 .encabezado div:first-child{
+    display: inline-block;
+    width:80%;
+    
+}
+div.post1 .encabezado div:last-child{
+    display:inline-block;
+    width:20%;
+    text-align: right;
+    padding: 10px;
+    color:rgb(105, 105, 157)
+}
+div.foto img{
+    width:100%;
+    position: relative;
+}
+
+div.post1 h2, p{
+    padding:10px;
+}
